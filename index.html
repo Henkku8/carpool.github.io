@@ -1,23 +1,16 @@
 <!DOCTYPE html>
 <html>
 <body>
-
-<form>
-  Kuka ajoi?<br>
-  <input type="radio" name="colors" id="henri">Henkka<br>
-  <input type="radio" name="colors" id="timo">Timo<br>
-  <input type="radio" name="colors" id="antti">Antti
-</form>
-  
-  <text>Kuka oli kyydissä?</text>
 <form action="/action_page.php" method="get">
+  Kuka ajoi?<br>
+  <input type="radio" name="driver" id="henri">Henkka<br>
+  <input type="radio" name="driver" id="timo">Timo<br>
+  <input type="radio" name="driver" id="antti">Antti
+  Kuka oli kyydissä<br>
   <input type="checkbox" name="passanger" value="Henri">Henri<br>
   <input type="checkbox" name="passanger" value="Timo" checked>Timo<br>
   <input type="checkbox" name="passanger" value="Antti" checked>Antti<br>
   <input type="submit" value="Submit">
 </form>
-
-</script>
-
 </body>
 </html>
