@@ -11,7 +11,7 @@ body, html{
   position: relative;
   margin: 40px auto;
   height: auto;
-  width: 500px;
+  width: 400px;
   padding: 20px;
 }
 
@@ -37,6 +37,11 @@ ul li{
 }
 
 ul li input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+}
+
+ul li input[type=checkbox]{
   position: absolute;
   visibility: hidden;
 }
@@ -99,5 +104,17 @@ input[type=radio]:checked ~ .check::before{
 }
 
 input[type=radio]:checked ~ label{
+  color: #0DFF92;
+}
+
+input[type=checkbox]:checked ~ .check {
+  border: 5px solid #0DFF92;
+}
+
+input[type=checkbox]:checked ~ .check::before{
+  background: #0DFF92;
+}
+
+input[type=checkbox]:checked ~ label{
   color: #0DFF92;
 }
