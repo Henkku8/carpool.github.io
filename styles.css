@@ -127,12 +127,20 @@ input[type=checkbox]:checked ~ label{
 }
 
 .button {
-    	position: absolute;
-	border: 1px outset blue;
-   	background-color: lightBlue;
-   	height:50px;
-   	width:50px;
-   	cursor:pointer;
+	position: absolute;
+	height:50px;
+   	width:300px;
+	display: block;
+	position: relative;
+	font-weight: 300;
+	font-size: 1.35em;
+	font-color: #AAAAAA;
+	padding: 25px 25px 25px 80px;
+	margin: 10px auto;
+	height: 30px;
+	z-index: 9;
+	cursor: pointer;
+	-webkit-transition: all 0.25s linear;
 }
 
 .button:hover {
