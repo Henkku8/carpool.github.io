@@ -218,7 +218,3 @@ input[type=checkbox]:checked ~ label{
 	-webkit-transition: color 0.25s linear;
 }
 
-.button:active{
-  color:#1a75ff;
-  -webkit-transition: color 0.25s linear;
-}
