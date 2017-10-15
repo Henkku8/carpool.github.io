@@ -128,7 +128,6 @@ input[type=checkbox]:checked ~ label{
 
 .button {
     	position: absolute;
-    	top: 50%;
 	border: 1px outset blue;
    	background-color: lightBlue;
    	height:50px;
