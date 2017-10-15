@@ -99,27 +99,27 @@ ul li .check::before {
 }
 
 input[type=radio]:checked ~ .check {
-	border: 5px solid #0DFF92;
+	border: 5px solid #1a75ff;
 }
 
 input[type=radio]:checked ~ .check::before{
-	background: #0DFF92;
+	background: #1a75ff;
 }
 
 input[type=radio]:checked ~ label{
-	color: #0DFF92;
+	color: #1a75ff;
 }
 
 input[type=checkbox]:checked ~ .check {
-	border: 5px solid #0DFF92;
+	border: 5px solid #1a75ff;
 }
 
 input[type=checkbox]:checked ~ .check::before{
-	background: #0DFF92;
+	background: #1a75ff;
 }
 
 input[type=checkbox]:checked ~ label{
-	color: #0DFF92;
+	color: #1a75ff;
 }
 
 .wrapper {
