@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body, html{
-  height: 100%;
-  background: #222222;
+	display: block;
+	font-size: 1.0em;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+  	height: 100%;
+  	background: #222222;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -107,7 +114,9 @@ input[type=radio]:checked ~ .check::before{
 }
 
 input[type=radio]:checked ~ label{
-	color: #1a75ff;
+	color: input[type='button']:active{
+  background-color:red;
+};
 }
 
 input[type=checkbox]:checked ~ .check {
@@ -122,16 +131,59 @@ input[type=checkbox]:checked ~ label{
 	color: #1a75ff;
 }
 
-.wrapper {
-	text-align: center;
+
+/*
+.button{
+	margin:auto;
+	display: block;
+	float: left;
+	height:50px;
+   	width:40%;
+   	cursor: pointer;
+	background: #FFFFFF;
+	font-family: 'Lato', sans-serif;
+	padding: 0;
+	border: none;
+	background: none;
 }
 
-.button {
-	position: absolute;
-	height:50px;
-   	width:300px;
+.button::before {
+	margin:auto;
 	display: block;
-	position: relative;
+	float: left;
+	height:50px;
+   	width:40%;
+   	cursor: pointer;
+	-webkit-transition: all 0.25s linear;
+	background: #FFFFFF;
+	font-family: 'Lato', sans-serif;
+	padding: 0;
+	border: none;
+	background: none;
+}
+*/
+
+
+.button {
+	margin:auto;
+ 	display:block;
+	height:100%;
+   	width:20%;
+
+   	color: #AAAAAA;
+	font-size: 1.7em;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+
+   	cursor: pointer;
+   	transition: color .25s linear;
+   	padding: 0;
+	border: none;
+	background: none;
+   	
+	/*
+	
+	display: block;
 	font-weight: 300;
 	font-size: 1.35em;
 	font-color: #AAAAAA;
@@ -141,9 +193,16 @@ input[type=checkbox]:checked ~ label{
 	z-index: 9;
 	cursor: pointer;
 	-webkit-transition: all 0.25s linear;
+	*/
 }
 
+
 .button:hover {
-	background-color: blue;
-	color:white;
+	color: #FFFFFF;
+	cursor: pointer;
+	-webkit-transition: color 0.25s linear;
+}
+
+.button:active{
+  color:#1a75ff;
 }
