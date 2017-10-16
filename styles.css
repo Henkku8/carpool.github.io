@@ -218,3 +218,14 @@ input[type=checkbox]:checked ~ label{
 	-webkit-transition: color 0.25s linear;
 }
 
+th {
+    text-align: left;
+    font-weight: 300;
+	font-size: 1.35em;
+}
+
+td {
+    text-align: left;
+    font-weight: 300;
+	font-size: 1.35em;
+}
